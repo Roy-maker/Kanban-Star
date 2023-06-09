@@ -18,7 +18,8 @@ function App() {
   }, 36000000);
 
   //Link del api
-  const apiLink = APILINK;
+  //const apiLink = APILINK;
+  const apiLink = process.env.APILINK;
   // const apiLink = "http://localhost:3001";
 
   const { theme } = useContext(ThemeContext);
