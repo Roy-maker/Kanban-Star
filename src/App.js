@@ -18,7 +18,7 @@ function App() {
   }, 36000000);
 
   //Link del api
-  const apiLink = "https://kvxrvsgw6c.execute-api.us-east-1.amazonaws.com";
+  const apiLink = APILINK;
   // const apiLink = "http://localhost:3001";
 
   const { theme } = useContext(ThemeContext);
